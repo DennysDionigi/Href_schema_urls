@@ -49,6 +49,7 @@ let tel_link = document.querySelector('.tel');
 let tel_link_2 = document.querySelector('.tel_2');
 let in_app = document.querySelector('.ig');
 let wa_link = document.querySelector('.share_wa');
+wa_link.href = 'https://wa.me/393294617617?text=Ho visto questo sito da cellulare: '+ location.href +' e vorrei un preventivo';
 let sharer = document.querySelector('.sharer');
 let side_share = document.querySelector('.side_share_desktop');
 let side_share_class = side_share.classList;
@@ -64,7 +65,7 @@ let new_tel_text_2 = tel_link_2.childNodes[2];
  new_tel_text_2.nodeValue = '+39. 02.94.38.32.93';
  
     in_app.href = 'https://www.instagram.com/why.not.media/'; 
-  wa_link.href = 'https://wa.me/393294617617?text=Sono%20interessato%20ad%20un%20preventivo%20UX';
+  wa_link.href = 'https://wa.me/393294617617?text=Ho%20visto%20il%20sito%20dal%20%pc20e%20ono%20interessato%20ad%20un%20preventivo%20UX';
 };//endif
 
 /*sharer*/
@@ -127,7 +128,7 @@ async function send_this_link(href) {
                 let body = "Dai uno sguardo anche tu su questa pagina:\r\n\r\n";
                 body += window.location.href;
                 body += "\xa0";
-                let uri = "href=mailto:?subject=";
+                let uri = 'mailto:?subject=';
                 uri += encodeURIComponent(subject);
                 uri += "&body=";
                 uri += encodeURIComponent(body);
