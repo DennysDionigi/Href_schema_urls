@@ -65,7 +65,7 @@ let new_tel_text_2 = tel_link_2.childNodes[2];
  new_tel_text_2.nodeValue = '+39. 02.94.38.32.93';
  
     in_app.href = 'https://www.instagram.com/why.not.media/'; 
-  wa_link.href = 'https://wa.me/393294617617?text=Ho%20visto%20il%20sito%20dal%20pc%20e%20sono%20interessato%20ad%20un%20preventivo%20UX';
+  wa_link.href = 'https://wa.me/393294617617?text=Ho visto questo sito da pc: '+ location.href +' e vorrei un preventivo UX';
 };//endif
 
 /*sharer*/
