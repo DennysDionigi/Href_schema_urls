@@ -56,6 +56,7 @@ let side_share_class = side_share.classList;
 //side_share_class.remove('active');
 
 let close_side_sharer = document.querySelectorAll('.close_side');
+let wa_desk_share = document.querySelector('.wa_desk_share');
 
 if(window.matchMedia("(pointer: fine)").matches) {
   let new_tel_text = tel_link.childNodes[2];
@@ -66,6 +67,7 @@ let new_tel_text_2 = tel_link_2.childNodes[2];
  
     in_app.href = 'https://www.instagram.com/why.not.media/'; 
   wa_link.href = 'https://wa.me/393294617617?text=Ho visto questo sito da pc: '+ location.href +' e vorrei un preventivo UX';
+  wa_desk_share.href = 'https://wa.me/?text=Dai uno sguardo a quests pagina: '+ location.href +' e poi contattali';
 };//endif
 
 /*sharer*/
