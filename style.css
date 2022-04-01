@@ -165,8 +165,9 @@ body {
 }
 /*share desktop*/
 .side_share_desktop {
-  width: 28vmax;
-  height: 100vh;
+  width: calc(100vh / 2);
+  min-height: 100vh;
+  height:-webkit-fill-available;
   background: rgb(0 0 0 / 35%);
   position: fixed;
   top: 0;
