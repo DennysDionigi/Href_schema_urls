@@ -127,7 +127,7 @@ async function send_this_link(href) {
                 let body = "Dai uno sguardo anche tu su questa pagina:\r\n\r\n";
                 body += window.location.href;
                 body += "\xa0";
-                let uri = "mailto:?subject=";
+                let uri = "href=mailto:?subject=";
                 uri += encodeURIComponent(subject);
                 uri += "&body=";
                 uri += encodeURIComponent(body);
