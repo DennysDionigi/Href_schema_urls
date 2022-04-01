@@ -82,19 +82,23 @@ body {
   animation-delay: -6s;
 }
 
-.cont_heading_svg {position:static;padding-top:4em}
+.cont_heading_svg {
+  position: static;
+  padding-top:4em;
+}
 .heading_svg {
-  top:3%;
-  left:0;
-  right:0;
-    width: calc(100vh / 1.9);
-    height: 100%;
-    font: 15vh/1 Open Sans, Impact, serif;
-    text-transform: uppercase;
-    mix-blend-mode: multiply;
-    filter: saturate(5);
-    letter-spacing: 2px;
-    text-shadow: 1px 1px black;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: calc(100vh / 1.7);
+  height: 100%;
+  font: 18vh/1 Open Sans, Impact, serif;
+  text-transform: uppercase;
+  mix-blend-mode: multiply;
+  filter: saturate(5);
+  letter-spacing: 2px;
+  text-shadow: 1px 1px black;
 }
 
 .intro p {
