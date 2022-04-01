@@ -77,13 +77,16 @@ body {
   -webkit-animation-delay: -6s;
   animation-delay: -6s;
 }
+
 .heading_svg {
-  width: 100%;
-  height: 100%;
-  font: 10em/1 Open Sans, Impact;
-  text-transform: uppercase;
-  mix-blend-mode: multiply;
-  filter: saturate(5);
+    width: 100%;
+    height: 100%;
+    font: 8em/1 Open Sans, Impact;
+    text-transform: uppercase;
+    mix-blend-mode: multiply;
+    filter: saturate(5);
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;
 }
 
 .intro p {
