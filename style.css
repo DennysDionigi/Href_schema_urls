@@ -87,9 +87,9 @@ body {
   top:3%;
   left:0;
   right:0;
-    width: calc(100vh / 1.5);
+    width: calc(100vh / 1.9);
     height: 100%;
-    font: 15vmax/1 Open Sans, Impact, serif;
+    font: 15vh/1 Open Sans, Impact, serif;
     text-transform: uppercase;
     mix-blend-mode: multiply;
     filter: saturate(5);
