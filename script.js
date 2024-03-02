@@ -49,7 +49,7 @@ let tel_link = document.querySelector('.tel');
 let tel_link_2 = document.querySelector('.tel_2');
 let in_app = document.querySelector('.ig');
 let wa_link = document.querySelector('.share_wa');
-wa_link.href = 'https://wa.me/393294617617?text=Ho visto questo sito da cellulare: '+ location.href +' e vorrei un preventivo';
+wa_link.href = 'https://wa.me/message/QCUIBGIUQV7VB1?text=Ho visto questo sito da cellulare: '+ location.href +' e vorrei un preventivo';
 let sharer = document.querySelector('.sharer');
 let side_share = document.querySelector('.side_share_desktop');
 let side_share_class = side_share.classList;
@@ -60,13 +60,13 @@ let wa_desk_share = document.querySelector('.wa_desk_share');
 
 if(window.matchMedia("(pointer: fine)").matches) {
   let new_tel_text = tel_link.childNodes[2];
- new_tel_text.nodeValue = '+39.3294617617';
+ new_tel_text.nodeValue = '+1. 2054982660';
 
 let new_tel_text_2 = tel_link_2.childNodes[2];
  new_tel_text_2.nodeValue = '+39. 02.94.38.32.93';
  
-    in_app.href = 'https://www.instagram.com/why.not.media/'; 
-  wa_link.href = 'https://wa.me/393294617617?text=Ho visto questo sito da pc: '+ location.href +' e vorrei un preventivo UX';
+    in_app.href = 'https://www.instagram.com/dennys.dionigi/'; 
+  wa_link.href = 'https://wa.me/message/QCUIBGIUQV7VB1?text=Ho visto questo sito da pc: '+ location.href +' e vorrei un preventivo UX';
   wa_desk_share.href = 'https://wa.me/?text=Dai uno sguardo a quests pagina: '+ location.href +' e poi contattali';
 };//endif
 
